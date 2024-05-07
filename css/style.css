@@ -207,7 +207,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form p{
-    padding: 5rem 0;
+    padding: 1rem 0;
     font-size: 1.5rem;
     color: #666;
 }
@@ -228,6 +228,7 @@ header .search-bar-container label:hover{
     color: #fff;
     cursor: pointer;
 }
+
 
 #menu-bar{
     color: #fff;
@@ -269,6 +270,50 @@ header .search-bar-container label:hover{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.forgot-password-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.forgot-password-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 200px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
 .book .row{
